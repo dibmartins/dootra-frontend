@@ -2,8 +2,15 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
+
+    <b-alert show>Default Alert</b-alert>
+
+    <b-btn @click="showAlert" variant="info" class="m-1">
+      Show alert with count-down timer
+    </b-btn>
+
     <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
+      <li><a href="https://vuejs.org" target="_blank">ANTONIO</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
       <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
@@ -26,6 +33,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    showAlert () {
+      console.log(this.msg)
     }
   }
 }
