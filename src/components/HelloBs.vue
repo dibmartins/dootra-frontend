@@ -37,8 +37,8 @@
           <b-form-checkbox value="that">Check that out</b-form-checkbox>
         </b-form-checkbox-group>
       </b-form-group>
-      <b-button type="submit" variant="primary">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
+      <b-button type="submit" variant="primary" size="sm"><i class="fa fa-save"></i> Submit</b-button>
+      <b-button type="reset" variant="danger" size="sm">Reset</b-button>
     </b-form>
   </div>
 </template>
