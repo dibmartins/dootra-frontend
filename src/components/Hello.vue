@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <ul>
       <li><router-link to="/bs">Bs</router-link></li>
+      <li><router-link to="/clientes">Clientes</router-link></li>
     </ul>
   </div>
 </template>
